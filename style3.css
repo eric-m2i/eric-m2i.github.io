@@ -1,0 +1,62 @@
+h1 {
+    color: #F52274;
+}
+p {
+    font-size: xx-large;
+    color: #4EE422;
+
+}
+section {
+    background-color: chocolate;
+}
+div{
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+#ma-section-table {
+    background-color:blue;
+}
+
+.custom-section{
+    background-color: violet;
+}
+
+div > p {
+    color :green;
+}
+
+div p footer h1{
+    color :rgb(155, 193, 32);
+}
+
+div:first-child {
+    color :deeppink;
+}
+
+p[data-paragraph='3'] {
+    text-decoration: underline;
+}
+
+#title:hover {
+    text-decoration: underline;
+}
+
+.pos-element {
+    background-color: cyan;
+}
+
+span {
+    position: static;
+}
+
+#main-article {
+    border: 2px solid ;
+}
+
+span :nth-child(2){
+    background-color: green;
+    position: relative;
+    top:15px;
+}
+

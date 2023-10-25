@@ -1,8 +1,56 @@
-h1 {
-    color: #352274;
+body  {
+    background-color: grey;
 }
-p {
-    font-size: xx-large;
-    color: #4EE422;
 
+.titre_corps {
+    font-size: x-large;
+    color: red;
 }
+
+.titre_entete {
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+}
+
+img{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+table {
+    border: 1px;
+    border-style: solid;
+    border-color :black;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+  
+tr:nth-child(even) {
+    background-color: white;
+}
+
+
+#thead_tr {
+    background-color: black;
+    color: white;
+}
+
+#paragraphe_bleu{
+    color : blue;
+    border-style :dotted;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
